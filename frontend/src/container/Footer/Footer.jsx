@@ -1,8 +1,7 @@
 import {React, useState} from 'react'
 import { images } from '../../constants';
-import {motion} from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
-import { urlFor, client } from '../../client';
+import {  client } from '../../client';
 
 import './Footer.scss'
 
@@ -42,10 +41,10 @@ const Footer = () => {
     <>
       <h2 className="head-text">Schedule a Coffee Chat With Me</h2>
       <div className="app__footer-cards">
-        <a href="https://www.linkedin.com/in/dmsmirno/" >
-          <div href="https://www.linkedin.com/in/dmsmirno/" className="app__footer-card">
+        <a href="https://www.linkedin.com/in/dmsmirno/" target="_blank" rel="noopener noreferrer">
+          <div className="app__footer-card">
             <img src={images.linkedIn} alt="email" />
-            <a className="p-text">Contact Me</a>
+            <p className="p-text">Contact Me on LinkedIn</p>
           </div>
         </a>
       </div>

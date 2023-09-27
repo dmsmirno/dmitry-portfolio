@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.scss';
 import { About, Header, Footer, Skills, Work, Reviews } from './container';
 import { Navbar } from './components';

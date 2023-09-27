@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
 import './Reviews.scss';
-import { images } from '../../constants';
-import {motion} from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import {HiChevronLeft, HiChevronRight} from 'react-icons/hi';
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import {images} from '../../constants';
 import {HiMenuAlt4, HiX} from 'react-icons/hi';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
@@ -13,7 +12,8 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
         <div className="app__navbar-logo">
-            <img src={images.placeholder} alt="Logo" />
+            <h1>Dmitry Smirnov's Portfolio</h1>
+
         </div>
         <ul className="app__navbar-links">
           {['home','about','work','skills','contact'].map((item) => (
