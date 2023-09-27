@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.scss';
-import { About, Header, Footer, Skills, Work } from './container';
+import { About, Header, Footer, Skills, Work, Reviews } from './container';
 import { Navbar } from './components';
 import React from 'react';
 
@@ -12,6 +12,7 @@ function App() {
       <About />
       <Work />
       <Skills />
+      <Reviews />
       <Footer />
     </div>
   );

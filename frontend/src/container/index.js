@@ -13,3 +13,6 @@ export {
 export {
     default as Work
 } from './Work/Work'
+export {
+    default as Reviews
+} from './Reviews/Reviews'
