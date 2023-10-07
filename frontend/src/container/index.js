@@ -16,3 +16,9 @@ export {
 export {
     default as Reviews
 } from './Reviews/Reviews'
+export {
+    default as Blog 
+} from './Blog/Blog'
+export {
+    default as BlogEntry 
+} from './BlogEntry/BlogEntry'
