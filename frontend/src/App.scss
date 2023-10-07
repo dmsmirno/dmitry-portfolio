@@ -71,6 +71,26 @@
   }
 }
 
+.subhead-text {
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--black-color);
+  text-transform: capitalize;
+
+  span {
+    color: var(--secondary-color);
+  }
+
+  @media screen and (min-width: 2000px) {
+    font-size: 3.25rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 1.25rem;
+  }
+}
+
 .p-text {
   font-size: 0.8rem;
   text-align: left;

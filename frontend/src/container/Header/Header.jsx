@@ -4,6 +4,8 @@ import './Header.scss';
 import { images } from '../../constants';
 import {motion} from 'framer-motion';
 import { AppWrap } from '../../wrapper';
+import { Link } from 'react-router-dom';
+
 
 const scaleVariants = {
   whileInView: {
@@ -30,7 +32,11 @@ const Header = () => {
             <div style={{marginLeft:20}}>
               <p className="p-text"> Welcome, my name is</p>
               <h1 className="head-text">Dmitry Smirnov</h1>
+              <Link to="/blog" style={{ textDecoration: 'none' }}>
+                <p className="subhead-text"> Click Here To Check out My Blog! </p>
+              </Link>
             </div>
+            
           </div>
           <div className="tag-cmp app__flex">
             <p className="p-text"> Software Developer, </p>
