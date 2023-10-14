@@ -2,6 +2,7 @@
 .card-container {
     display: flex;
     justify-content: center;
+    flex-direction: column; /* Change from 'row' to 'column' */
     align-items: center;
     min-height: 100vh;
     background-color: #f0f0f0; /* Set your desired background color */
@@ -37,6 +38,7 @@
 /* Card image */
 .card-img {
     width: 100%;
+    min-height:500px;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
 }
